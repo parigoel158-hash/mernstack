@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+        body {
+            background-color: burlywood;
+        }
+        
+        table {
+            background-color: rgb(160, 38, 38);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table border="10" width="50%" align="center" cellspacing="30">
+            <tr>
+                <th><label for="fname">First Name</label></th>
+                <td><input type="text" id="fname" placeholder="your first name here"></td>
+            </tr>
+            <tr>
+                <th><label for="lname">Last Name</label></th>
+                <td><input type="text" id="lname" placeholder="your second name here"></td>
+            </tr>
+            <tr>
+                <th><label for="email">Email</label></th>
+                <td><input typ="text" id="email" placeholder="your email id here"></td>
+            </tr>
+            <tr>
+                <th><label for="password">Password</label></th>
+                <td><input type="text" id="password" placeholder="your password"></td>
+            </tr>
+            <!--radio button-->
+            <tr>
+                <th><label for="">Gender</label></th>
+                <td><label for="">Male</label><input type="radio" value="male" name="g1"><label for="">Female</label><input type="radio" value="female" name="g1"></td>
+            </tr>
+            <tr>
+                <th><label for="">Highest Qualification</label></th>
+                <td><label for="">10th</label><input type="radio" value="10th" id="h1"><label for="">12th</label><input type="radio" value="12th" id="h1"><label for="">graduate</label><input type="radio" value="graduate" id="h1"></td>
+            </tr>
+            <!-- checkbox -->
+            <tr>
+                <th>Skills</th>
+                <td><label for="">C</label><input type="checkbox" name="skills"><label for="">Java</label><input type="checkbox" name="skills"><label for="">Python</label><input type="checkbox" name="skills"></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><select name="" id=""><option value="">--select city--</option><option value="">Delhi</option><option value="">Meerut</option><option value="">Noida</option><option value="">Gurugram</option></td></tr><tr><th><label for="">DOB</label></th><td><input type="date"></td></tr><tr><th><label for="">Select Range</label></th><td><input type="range"></td></tr><tr><td><input type="submit"></td><td><input type="reset"></td></tr></table></form></body></html>
