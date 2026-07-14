@@ -1,0 +1,28 @@
+.container{
+            /* vh:vertical height  */
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+}
+
+.box{
+    font-size: 80px;
+}
+
+button{
+        height: 80px;
+        width: 80px;
+        border: none;    
+        padding: 10px 20px;
+        margin-left: 10px;
+        background-color: chartreuse;
+        color:black;
+        font-size: 60px;
+        font-weight: bold;
+}
+
+span{
+     margin-left: 10px;
+}
