@@ -1,0 +1,21 @@
+{
+  "todos": [
+    {
+      "taskName": "Learn JavaScript",
+      "id": "dhgfhgf"
+    },
+    {
+      "taskName": "Learn Node JS Again",
+      "id": "fdgfghhhhhhh"
+    },
+    {
+      "taskName": "gfghgyghjghj",
+      "id": "dhghgg"
+    },
+    {
+      "taskName": "gfdghgfghj",
+      "id": "jhgfhf"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
